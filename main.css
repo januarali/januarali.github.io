@@ -112,3 +112,6 @@ div.desc {
 @media screen and (min-width: 600px) {
     body {background:#4d4b4b}
 }
+@media screen and (max-width: 600px) {
+    body {background:#4d4b4b}
+}
