@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    background: #4d4b4b;
+}
+.header {
+    padding: 50px;
+    text-align: center;
+    background-image: url(/foto/Blackrose.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: top;
+    background-size:100%;
+    color: black;
+}
+.header h1 {
+    font-size: 65px;
+}
+.topnav {
+    overflow: hidden;
+    background: #4d4b4b;
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.button {
+    background-color: #4d4b4b;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+.button:hover {opacity: 1}
+
+.leftcolumn {
+    float: left;
+    width: 75%;
+}
+.rightcolumn {
+    float: right;
+    width: 25%;
+    background-color: #4d4b4b;
+    padding-left: 20px;
+}
+/*------- gallery -------*/
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+div.gallery:hover {
+    border: 1px solid #777;
+}
+div.gallery img {
+    width: 100%;
+    height: 50%;
+}
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 15px;
+    text-align: left;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.footer {
+    padding: 20px;
+    text-align: center;
+    background:black;
+    margin-top: 20px;
+    color: white;
+}
+@media screen and (max-width: 800px) {
+    .leftcolumn .rightcolumn {
+        width: 100%;
+        padding: 0;
+    }
+}
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
