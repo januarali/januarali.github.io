@@ -9,7 +9,7 @@ body {
 .header {
     padding: 50px;
     text-align: center;
-    background-image: url(/image/Blackrose.jpg);
+    background-image: url(image/Blackrose.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: top;
